@@ -1,4 +1,5 @@
- Uri buildUri = Uri.parse(OMDB_URL).buildUpon()
+            final String OMDB_URL = "http://www.omdbapi.com/?"; 
+            Uri buildUri = Uri.parse(OMDB_URL).buildUpon()
                             .appendQueryParameter("t", "Edge of Tomorrow")
                             .build();
 
